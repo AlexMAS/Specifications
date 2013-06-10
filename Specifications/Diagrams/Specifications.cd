@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DevCon2011.Specifications.AndSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.ValidationSpecification&lt;T&gt;">
+    <Position X="2.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>ValidationSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.CompositeSpecification&lt;T&gt;">
+    <Position X="6.25" Y="5" Width="2.25" />
+    <Members>
+      <Method Name="CompositeSpecification" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.FilterSpecification&lt;T&gt;">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <Members>
+      <Field Name="_filterOperatorFunc" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>FilterSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.NotSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.NullSpecification&lt;T&gt;">
+    <Position X="5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NullSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.OrSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Specification&lt;T&gt;">
+    <Position X="2.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAEAAAAAAABACAAAAAAAAAIBAIAAAAAAAAAA=</HashCode>
+      <FileName>Specification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

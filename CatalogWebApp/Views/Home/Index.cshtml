@@ -1,0 +1,35 @@
+﻿@model DevCon2011.Specifications.Catalog.Models.CatalogModel
+@{
+    ViewBag.Title = "Home Page"; 
+}
+
+@{ Html.EnableClientValidation(); }
+
+@using (Html.BeginForm())
+{
+    <div>
+        <fieldset>
+            <legend>Filter</legend>
+
+            @Html.EditorFor(m => m.Filter)
+
+            <p>
+                <input type="submit" value="Apply" />
+            </p>
+        </fieldset>
+    </div>    
+}
+
+@if (Model != null && Model.Products != null && Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>@Html.DisplayFor(m => product)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>There are no products that satisfy the filter</p>
+}

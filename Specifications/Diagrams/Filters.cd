@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DevCon2011.Specifications.Filters.FilterOperator">
+    <Position X="4" Y="2.5" Width="2" />
+    <Members>
+      <Field Name="_targetType" Hidden="true" />
+      <Method Name="CreateFilterDelegateType" Hidden="true" />
+      <Method Name="CreateFilterParameter" Hidden="true" />
+      <Method Name="FilterOperator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAgAAAABACAAAAAAAAAIBAAQAAgAAAAAA=</HashCode>
+      <FileName>Filters\FilterOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.BooleanOperator">
+    <Position X="2" Y="5.25" Width="2" />
+    <Members>
+      <Field Name="_operators" Hidden="true" />
+      <Method Name="BooleanOperator" Hidden="true" />
+      <Method Name="InitializeOperators" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIIQA=</HashCode>
+      <FileName>Filters\BooleanOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperator">
+    <Position X="6.25" Y="5.25" Width="2.25" />
+    <Members>
+      <Method Name="ConditionalOperator" Hidden="true" />
+      <Method Name="CreateFilterProperty" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAUAIAAA=</HashCode>
+      <FileName>Filters\ConditionalOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.BooleanOperators.OrOperator">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <Members>
+      <Method Name="CreateFalseLambdaExpression" Hidden="true" />
+      <Method Name="OrOperator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\BooleanOperators\OrOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.BooleanOperators.AndOperator">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <Members>
+      <Method Name="AndOperator" Hidden="true" />
+      <Method Name="CreateTrueLambdaExpression" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAA=</HashCode>
+      <FileName>Filters\BooleanOperators\AndOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.BooleanOperators.NotOperator">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <Members>
+      <Method Name="NotOperator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\BooleanOperators\NotOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.BetweenOperator">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <Members>
+      <Method Name="BetweenOperator" Hidden="true" />
+      <Method Name="InitializeValues" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\BetweenOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.StartsWithOperator" Collapsed="true">
+    <Position X="5.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\StartsWithOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.BinaryOperator">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <Members>
+      <Method Name="BinaryOperator" Hidden="true" />
+      <Method Name="InitializeValue" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\BinaryOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.ContainsOperator" Collapsed="true">
+    <Position X="5.75" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\ContainsOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.EndsWithOperator" Collapsed="true">
+    <Position X="5.75" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\EndsWithOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.EqualOperator" Collapsed="true">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\EqualOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.GreaterOrEqualOperator" Collapsed="true">
+    <Position X="8.5" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\GreaterOrEqualOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.GreaterOperator" Collapsed="true">
+    <Position X="8.5" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\GreaterOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.InOperator" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\InOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.LessOperator" Collapsed="true">
+    <Position X="8.5" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\LessOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.Filters.ConditionalOperators.LessOrEqualOperator" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\ConditionalOperators\LessOrEqualOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevCon2011.Specifications.FilterSpecification&lt;T&gt;">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <Members>
+      <Field Name="_filterOperatorFunc" Hidden="true" />
+      <Method Name="FilterSpecification" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>FilterSpecification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Operator" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DevCon2011.Specifications.Filters.IFilterOperator">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Filters\IFilterOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DevCon2011.Specifications.Filters.IFilterBuilder&lt;T&gt;">
+    <Position X="7" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\IFilterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DevCon2011.Specifications.Filters.IConditionBuilder&lt;T&gt;">
+    <Position X="9" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAAAAAAAAgABAwAAAAAAQAEAgQQIACBQYgGE=</HashCode>
+      <FileName>Filters\IConditionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
